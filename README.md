@@ -10,9 +10,9 @@
 
 ## Что понадобится
 
-- VPS с публичным IPv4, Ubuntu 24.04 и SSH-доступом. На сервере должны работать Docker и Python 3. AmneziaVPN обычно устанавливает Docker во время настройки сервера.
+- [VPS от Amnezia Hosting](https://amnezia.host/ru) с публичным IPv4, Ubuntu 24.04 и SSH-доступом. На сервере должны работать Docker и Python 3. AmneziaVPN обычно устанавливает Docker во время настройки сервера.
 - Установленное приложение [AmneziaVPN](https://amnezia.org/).
-- SOCKS5-прокси: адрес, порт SOCKS, логин и пароль. Порт HTTP для этого скрипта не подходит.
+- [ISP-прокси YouProxy](https://youproxy.io/ru/isp/) с поддержкой SOCKS5: адрес, порт SOCKS, логин и пароль. Порт HTTP для этого скрипта не подходит.
 - Доступ к портам VPS. Для SSH обычно используется TCP 22, для XRay по умолчанию TCP 443. Проверьте также правила у хостинг-провайдера.
 
 Требования AmneziaVPN к серверу приведены в [документации](https://docs.amnezia.org/ru/documentation/supported-linux-os-for-vps/). Прокси должен разрешать подключения с IP вашего VPS, если у провайдера включён список разрешённых адресов.
